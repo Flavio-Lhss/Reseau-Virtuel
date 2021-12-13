@@ -1,0 +1,57 @@
+{
+  "SubstrateNetwork": {
+    "Link": {
+      "Bandwidth": {
+        "Min": "14",
+        "Max": "30"
+      }  
+    },
+    "Node": {
+      "CPU": {
+        "Min": "10",
+        "Max": "20"
+      },
+      "RAM": {
+        "Min": "7",
+        "Max": "240"
+      },
+      "ROM": {
+        "Min": "50",
+        "Max": "400"
+      }    
+    }
+  },
+  "VirtualNetwork": {
+    "Link": {
+      "Bandwidth": {
+        "Min": "5",
+        "Max": "9"
+      }  
+    },
+    "Node": {
+      "CPU": {
+        "Min": "2",
+        "Max": "15"
+      },
+      "RAM": {
+        "Min": "2",
+        "Max": "140"
+      },
+      "ROM": {
+        "Min": "5",
+        "Max": "200"
+      }    
+    },
+    "NumVNFs": {
+      "Min": "2",
+      "Max": "4"
+    }
+  },
+  "VNE": {
+    "NumRq" : "5",
+    "Algorithm": [
+      "FirstFit",
+      "Evolutionary"
+    ]
+  }
+}
